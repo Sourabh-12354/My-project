@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin-top: .5rem;
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Poppins",sans-serif;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.2%;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+header{
+    grid-column: 1/-1;
+}
+header .nav-section{
+   display: grid;
+   grid-template-columns: 2fr 7fr 3fr;
+}
+header .nav-section .title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav{
+    display: block;
+    margin: 0 auto;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+}
+nav ul li a{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+}
+.group-btn{
+    margin-top: -.5rem;
+    margin-left: 7rem;
+}
+.group-btn .signin{
+    display: block;
+    float: left;
+    width: 10rem;
+    height: 4rem;
+    color: black;
+    border-radius: .7rem;
+    padding-top: 1.2rem;
+    padding-left: 3.5rem;
+    font-weight: bold;
+    
+}
+.group-btn .signup{
+    color: #fff;
+    background-color: #4F46BA;
+    padding-left: 2.6rem;
+}
+.group-btn .signin:hover{
+    background-color: #4F46BA;
+    color: #fff;
+}
+.group-btn .signup:hover{
+    background-color: #FF7F5C;
+}
+/*
+.hero-section .bg-img img{
+    width: 10%;
+    background-color: #FF7F5C;
+}
+.hero-section h1{
+   margin-top: -14rem;
+   margin-left: 10rem;
+}
+*/
+.hero-section{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 6fr 5fr;
+}
+.hero-section .bg-img img{
+    margin-left: -7rem;
+    width: 15rem;
+   
+}
+.content-section{
+   margin-left: -5rem;
+   width: 45rem;
+   margin-top: 10rem;
+}
+.content-section h1{
+    font-size: 4rem;
+}
+.content-section p{
+   width: 40rem;
+   font-size: 1.3rem;
+}
+.content-section .process{
+    display: inline-block;
+    color: #fff;
+    background-color: #4F45B9;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-top: 1.2rem;
+    font-weight: bold;
+}
+.content-section .works{
+    font-size: 1.5rem;
+}
+.content-section .works span{
+    border-radius: 50%;
+    background-color: #4F45B9;
+}
+.content-section .works span img{
+    width: 2%;
+}
+.account-section{
+    margin-left: 5rem;
+    width: 100rem;
+    margin-top: 14rem;
+}
+.account-section label{
+    font-size: 2rem;
+    color: #4F45B9;
+    margin-left: 2rem;
+}
+.account-section #email{
+    width: 25rem;
+    height: 3.5rem;
+    padding-left: 1rem;
+}
+.account-section #password{
+    margin-top: 2rem;
+    width: 25rem;
+    height: 3.5rem;
+    padding-left: 1rem;
+}
+.account-section .get-start{
+    margin-top: 2rem;
+    display: block;
+    width: 25rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 4rem;
+    color: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    background-color: #FF7F5C;
+    padding-top: 1.2rem;
+}
+.account-section .get-start:hover{
+    background-color: #4F45B9;
+}
+main{
+    grid-column: 1/-1;
+}
+main .container-1{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+main .container-1 .img-sec img{
+    width: 10rem;
+    margin-left: -7rem;
+}
+main .container-1 .content1-sec{
+    margin-top: 4rem;
+}
+main .container-1 .content1-sec p{
+    margin-left: 22rem;
+    font-size: 2rem;
+}
+main .container-1 .content1-sec li{
+    margin-left: 8rem;
+    margin-top: 1rem;
+    list-style: none;
+}
+main .container-1 .content1-sec li img{
+    width: 13rem;
+    padding-left: 3rem;
+}
+main .container-1 .content1-sec ul li .i-1{
+    display: inline-block;
+    padding-top: -5rem;
+}
+.container-2{
+    grid-column: 1/-1;
+}
+.container-2 h1{
+    text-align: center;
+    font-size: 2.4rem;
+}
+.container-2 p{
+    margin-left: 47rem;
+    width: 40rem;
+    font-size: 1.2rem;
+}
+.container-2 a{
+    display: inline-block;
+    width: 35rem;
+    background-color: #4F45B9;
+    color: #fff;
+    height: 3rem;
+    border-radius: .5rem;
+    margin-left: 49rem;
+    padding-top: .7rem;
+    padding-left: 5.7rem;
+}
+.container-3{
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+.container-3 .col-1{
+    
+}
+.container-3 .col-1 .rectangle{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 1.5rem;
+    background-color: #F8F9FD;
+}
+.container-3 .col-1 .rectangle img{
+    padding-top: .5rem;
+    width: 50%;
+}
+.container-3 .col-1 .rectangle p{
+    font-size: 20rem;
+}
